@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/formwaarden.css">
+    <script type="text/javascript" charset="utf-8" src="scripts/formwaarden.js"></script>
+    <title>formwaarden</title>
+</head>
+<body>
+<nav><a href="index.html">index</a></nav>
+<form>
+    <div class="lijn">
+        <label for="chkIsRoker">Is roker</label>
+        <input type="checkbox" id="chkIsRoker"/>
+    </div>
+
+    <div class="lijn">
+        <label>Moedertaal</label>
+        <input type="radio" id="rbtNL" name="rbtMoedertaal" value="nl" checked/><label for="rbtNL">Nederlands</label>
+        <input type="radio" id="rbtFR" name="rbtMoedertaal" value="fr"/><label for="rbtFR">Frans</label>
+        <input type="radio" id="rbtEN" name="rbtMoedertaal" value="en"/><label for="rbtEN">Engels</label>
+    </div>
+
+    <div class="lijn">
+        <label for="selBuurland">Favoriete buurland</label>
+        <select id="selBuurland">
+            <option>Nederland</option>
+            <option selected>Frankrijk</option>
+            <option>Duitsland</option>
+        </select>
+    </div>
+
+    <div class="lijn">
+        <label for="selBestelling">Bestelling</label>
+        <select id="selBestelling" multiple size="6">
+            <option>aardappelen</option>
+            <option>brood</option>
+            <option>melk</option>
+            <option>biefstuk</option>
+            <option>chips</option>
+            <option>krant</option>
+        </select>
+    </div>
+
+    <input type="button" id="btnToon" value="Result"/>
+</form>
+
+</body>
+</html>
