@@ -1,0 +1,10 @@
+.lijn {
+    padding-bottom: 10px;
+}
+.lijn > label:first-child {
+    display: inline-block;
+    width: 8em;
+    vertical-align: top;
+}
+
+
